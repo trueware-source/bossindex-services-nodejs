@@ -1,0 +1,25 @@
+{
+  "name": "HappyIndex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "start": "npm index.js"
+  },
+  "author": "Terrence Beenade",
+  "license": "MIT",
+  "dependencies": {
+    "boom": "^2.5.1",
+    "good": "^3.0.1",
+    "good-http": "^2.0.0",
+    "hapi": "^7.0.0",
+    "joi": "^4.7.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "mongoose": "3.8.x"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0"
+  }
+}
