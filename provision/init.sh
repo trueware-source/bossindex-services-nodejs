@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get install build-essential
-sudo apt-get install -y tcl8.5
+apt-get update
+apt-get install build-essential
+apt-get install -y tcl8.5
 
-sudo apt-get install -y nodejs
-sudo apt-get install -y npm
-
+curl -sL https://deb.nodesource.com/setup | sudo bash -
+apt-get install -y nodejs
+npm install -g nodemon
