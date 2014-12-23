@@ -6,7 +6,7 @@
     "test": "node_modules/.bin/mocha",
     "start": "npm index.js"
   },
-  "author": "Terrence Beenade",
+  "author": "Terrence Benade",
   "license": "MIT",
   "dependencies": {
     "boom": "^2.5.1",
